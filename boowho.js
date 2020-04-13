@@ -8,3 +8,5 @@ function booleanVal(bool) {
     } else console.log("false");
   }
 booleanVal(false);
+booleanVal("Poop");
+booleanVal(true);
