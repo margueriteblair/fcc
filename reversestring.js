@@ -15,4 +15,3 @@ function reverseString2(str) {
 }
 reverseString2("Hello");
 reverseString2("Margie");
-  
