@@ -9,3 +9,4 @@ console.log(ohRegex.test(ohStr));
 upperAndLowerLimits("oh no");
 upperAndLowerLimits("Ohhh no");
 upperAndLowerLimits("Ohhhhhhhhhh no");
+upperAndLowerLimits("OHHHH NO")
