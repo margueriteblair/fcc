@@ -14,3 +14,11 @@ console.log(userCheck.test(username));
 possibleUsernames("MARGIE");
 possibleUsernames("5432gjsd");
 
+function possibleUsernames2(username) {
+    let userCheck = /^[a-z]([0-9][0-9]*)$/i
+    console.log(userCheck.test(userCheck))
+}
+
+possibleUsernames2("CAREERDEVS")
+possibleUsernames2("99Falf");
+
