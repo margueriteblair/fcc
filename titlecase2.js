@@ -19,22 +19,9 @@ function titleCase(str) {
 function titleCase2(str) {
     let newStr = str.toLowerCase().split(" ");
     for (i = 0; i < newStr.length; i++) {
-        if (Number.isInteger(i) === true) {
+        if (Number.isInteger(i) === true) { //does not change the outcome because i is an integer regardless
         finalStr = (str.replace(newStr[i][0],newStr[i][0].toUpperCase()));
     } console.log(finalStr);
 }
 }
 
-titleCase2("i'm a little tea pot");
-
-function titleCase3(str) {
-    let arrOfWords = str.toLowerCase().split(" ");
-  
-    for (let i = 0; i < arrOfWords.length; i++) {
-      arrOfWords[i] = arrOfWords[i][0].toUpperCase() + arrOfWords[i].slice(1);
-    }
-  
-    console.log(arrOfWords);
-  }
-  
-//   titleCase3("I'm a little tea pot");
