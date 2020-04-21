@@ -8,8 +8,7 @@ function titleCase(str) {
         finalStr = (str.replace(newStr[i][0],newStr[i][0].toUpperCase()));
         console.log(newStr[i][0]);
         console.log(newStr[i][0].toUpperCase());
-        console.log(newStr[1][0].toUpperCase());
-        }
+     }
         // console.log(finalStr);
     }
   
