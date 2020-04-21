@@ -11,7 +11,6 @@ function frankenSplice(arr1, arr2, n) {
     // console.log(copyArray2)
     for (let i = 0; i < arr1.length; i++) {
         arr2 = copyArray2.splice(n, 0, arr1[i]);
-        n++
     }
     console.log(copyArray2);
   }
