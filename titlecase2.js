@@ -9,19 +9,20 @@ function titleCase(str) {
      }
         console.log(newStr.toString());
     }
-  
-  titleCase("I'm a little tea pot");
+
+// titleCase("I'm a little tea pot");
+
 
 // REGEX POSSIBILITIES: 
 
 // /^\w|\s
 
 function titleCase2(str) {
-    let newStr = str.toLowerCase().split(" ");
-    for (i = 0; i < newStr.length; i++) {
-        if (Number.isInteger(i) === true) { //does not change the outcome because i is an integer regardless
-        finalStr = (str.replace(newStr[i][0],newStr[i][0].toUpperCase()));
-    } console.log(finalStr);
+    let newStrArr = str.toLowerCase().split(" ");
+    for (i = 0; i < newStrArr.length; i++) {
+        finalStr = (str.replace(newStrArr[i][0],newStrArr[i][0].toUpperCase()));
+        console.log(finalStr);
+    } 
 }
-}
+titleCase2("I'm a little tea pot");
 
