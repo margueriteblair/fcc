@@ -4,8 +4,8 @@
 // Lastly, ["Alien", "line"], should return true because all of the letters in "line" are present in "Alien".
 
 function mutation(arr) {
-    let arr1 = arr[0].toLowerCase(); //target
-    let arr2 = arr[1].toLowerCase(); //test
+    let arr1 = arr[0].toLowerCase(); 
+    let arr2 = arr[1].toLowerCase(); 
     for (let i = 0; i < arr2.length; i++) {
         if (arr1.indexOf(arr2[i]) < 0) {
             console.log(false);
@@ -16,4 +16,8 @@ function mutation(arr) {
   mutation(["hello", "hey"]);
   mutation(["hello", "Hello"])
   mutation(["hello", "neo"]);
+
+  function mutation2(arr) {
+      
+  }
   
