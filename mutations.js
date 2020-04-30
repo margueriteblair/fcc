@@ -13,11 +13,20 @@ function mutation(arr) {
     }
   }
   
-  mutation(["hello", "hey"]);
-  mutation(["hello", "Hello"])
-  mutation(["hello", "neo"]);
+//   mutation(["hello", "hey"]);
+//   mutation(["hello", "Hello"])
+//   mutation(["hello", "neo"]);
 
   function mutation2(arr) {
-      
+      let arrTest = arr[1].toLowerCase();
+      let arrTarget = arr[0].toLowerCase();
+      for (let i = 0; i < arrTest.length; i++) {
+          if (arrTarget.indexOf(arrTest[i]) < 0) {
+              console.log(false);
+          } else console.log(true);
+      }
   }
+
+  mutation2("hello", "hey");
+  mutation2("hello", "neo")
   
